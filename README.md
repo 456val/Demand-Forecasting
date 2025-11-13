@@ -38,12 +38,6 @@ Steps include:
 - Handling missing phone numbers by substituting with "0"
 - Encoding categorical variables and cleaning inconsistent text
 
-Example:
-```python
-df['CUSTOMERNAME'] = df['CUSTOMERNAME'].fillna("Anonymous")
-df['ADDRESS'] = df['ADDRESS'].fillna("Unknown")
-df['PHONE'] = df['PHONE'].fillna('0')
-
 ## Model Development
 
 Machine learning algorithms are used to model the relationship between:
